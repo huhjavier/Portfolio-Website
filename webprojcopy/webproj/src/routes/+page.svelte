@@ -1,4 +1,6 @@
-
+<script>
+  import { base } from '$app/paths'
+</script>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -9,14 +11,15 @@
       </head>
       
       <body>
+
         <div class="text-container">
           <h1>SAUL BASS</h1>
         </div>
         <div class="where"> <p>Find me here:</p></div>
         <div class="header"><h1>Featured Work</h1></div>
-        <div class="home"><a href="/"><h2>HOME</h2></a></div>
-        <div class="work"><a href="/work"><h2>WORK</h2></a></div>
-        <div class="about"><a href="/about"><h2>ABOUT</h2></a></div>
+        <div class="home"><a href="{base}/"><h2>HOME</h2></a></div>
+        <div class="work"><a href="{base}/work"><h2>WORK</h2></a></div>
+        <div class="about"><a href="{base}/about"><h2>ABOUT</h2></a></div>
         <div><a target=”_blank” href="https://www.instagram.com/saul.bass/"><img class="insta" src="insta.svg" alt=""> </a></div>
         <div> <a target=”_blank” href="https://twitter.com/saulbass1920?lang=en"><img class="twitter" src="twitter.svg" alt=""> </a></div>
         <div> <a target=”_blank” href="https://www.facebook.com/saulbassfanpage/"><img class="facebook" src="facebook.svg" alt=""> </a></div>

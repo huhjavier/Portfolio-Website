@@ -1,3 +1,6 @@
+<script>
+  import { base } from '$app/paths'
+</script>
 <html lang="en">
   <body>
     <div class="ripple background">
@@ -6,7 +9,7 @@
       <div class="circle large shade3"></div>
     </div>
     <div class="about"><h1>About the artist</h1></div>
-    <a href="/"><img class="home" src="bxs-home.svg" alt=""></a>
+    <a href="{base}/"><img class="home" src="bxs-home.svg" alt=""></a>
     <div> <img class="dude" src="https://lallsopp.github.io/john_baskerville/images/Saul%20Bass%20portrait.jpg" alt="saul"></div>
     <div class="who"><p>Saul Bass was born in The Bronx, New York on 8th May 1920 to Eastern European Jewish immigrant parents.
        He began drawing from an early age and went on to graduate from James Monroe high school.

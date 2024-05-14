@@ -1,6 +1,9 @@
+<script>
+  import { base } from '$app/paths'
+</script>
 <html lang="en">
  <body>
-    <div><a href="/"><img class="home" src="bxs-home.svg" alt=""></a></div>
+    <div><a href="{base}/"><img class="home" src="bxs-home.svg" alt=""></a></div>
  </body>   
 </html>
 <!DOCTYPE html>
